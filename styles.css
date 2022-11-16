@@ -66,11 +66,27 @@ p {
 
 .card {
     max-width: 311px;
-    padding: 1.866rem;
+    padding: 9%;
     border-radius: 8px;
     box-shadow: 0px 4px 10px hsl(229, 6%, 66%);
     position: relative;
     overflow: hidden;
+}
+
+.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
 }
 
 .card-heading {
@@ -121,7 +137,9 @@ body {
     gap: 2rem;
 }
 
-.card {}
+.card {
+    max-width: 350px;
+}
 
 .supervisor {
     grid-area: 2/1/span 2/span 1
