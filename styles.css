@@ -93,6 +93,7 @@ p {
 }
 
 .card-heading {
+    color: color: hsl(234, 12%, 34%);
     font-size: 1.333rem;
 }
 
