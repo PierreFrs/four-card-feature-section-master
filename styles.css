@@ -42,10 +42,12 @@ p {
 
 .normal-heading {
     font-weight: 200;
+    color:hsl(229, 6%, 66%);
 }
 
 .bold-heading {
     font-weight: 600;
+    color: hsl(234, 12%, 34%);
 }
 
 .header-paragraph {
