@@ -1,0 +1,75 @@
+/*general styles*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    max-width: 375px;
+    padding: 5.666rem 0;
+}
+
+p {
+    color: hsl(229, 6%, 66%)
+}
+
+/*header styles*/
+
+.header {
+    text-align: center;
+}
+
+.normal-heading,
+.bold-heading {
+    font-size: 1.6rem;
+}
+
+.normal-heading {
+    font-weight: 200;
+}
+
+.bold-heading {
+    font-weight: 600;
+}
+
+.header-paragraph {
+    font-size: 1rem;
+    line-height: 1.666;
+    margin-top: 1rem
+}
+
+
+/*main styles*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.666rem
+}
+
+
+
+
+
+/*footer styles*/
+
+
+
+
+
